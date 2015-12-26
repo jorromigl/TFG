@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sat Dec 26 11:49:14 CET 2015:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance a816c00e-0151-dde8-1a82-00001c271ab0 
+on database directory C:\Users\TFG\workspace\.metadata\.plugins\de.walware.statet.r.core\db with class loader org.eclipse.osgi.internal.loader.EquinoxClassLoader@6566f355[de.walware.3rdparty-org.apache.derby.core:10.10.2000000.b201506120830E43sw(id=1065)] 
+Loaded from file:/C:/Users/TFG/eclipse/plugins/de.walware.3rdparty-org.apache.derby.core_10.10.2000000.b201506120830E43sw.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.7.0_11-b21
+user.dir=C:\Users\TFG\eclipse
+os.name=Windows 7
+os.arch=amd64
+os.version=6.1
+derby.system.home=C:\Users\TFG\workspace\.metadata\.plugins\de.walware.ecommons.edb
+Database Class Loader started - derby.database.classpath=''

@@ -1,0 +1,38 @@
+<mongoChangeLog>
+	<changeSet changeId="ChangeSet-2" author="jhipster">
+		<script>
+		     
+             db.teams.insert(
+            {
+                "id" : "1",
+                "name" : "Mairena del Aljarafe",
+                "jugadores" : [
+	          		 {
+	            		 "id" : "2",
+               			 "username" : "user1",
+                         "password" : "user4"
+	           		},
+	           		{ 	"id" : "3",
+               		    "username" : "user3",
+                        "password" : "user4"
+	           	}
+			]
+            });
+            
+             db.teams.insert(
+            {
+                "id" : "2",
+                "name" : "Libertad F.C",
+                "jugadores" : [
+	          		 {
+	            		 "id" : "4",
+               			 "username" : "user4",
+                         "password" : "user4"
+	           		}
+	           	]
+            });
+              
+		
+		</script>
+	</changeSet>
+</mongoChangeLog>

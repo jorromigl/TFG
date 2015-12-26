@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;archetype maven webapp&apos; to &apos;EscuelaFutbol&apos;" description="Rename resource &apos;archetype maven webapp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/archetype maven webapp" name="EscuelaFutbol" stamp="1451127538293" updateReferences="true"/>
+</session>

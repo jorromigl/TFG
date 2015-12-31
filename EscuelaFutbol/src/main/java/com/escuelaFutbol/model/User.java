@@ -1,5 +1,6 @@
 package com.escuelaFutbol.model;
 
+import org.hibernate.validator.constraints.NotBlank;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
@@ -8,11 +9,11 @@ public class User {
 
 	@Id
 	private String id;
-
+	
 	String username;
 
 	String password;
-
+	
 	public String getId() {
 		return id;
 	}
@@ -20,7 +21,8 @@ public class User {
 	public void setId(String id) {
 		this.id = id;
 	}
-
+	
+	@NotBlank
 	public String getUsername() {
 		return username;
 	}

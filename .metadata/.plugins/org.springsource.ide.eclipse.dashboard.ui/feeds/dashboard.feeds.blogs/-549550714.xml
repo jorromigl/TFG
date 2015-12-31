@@ -5,7 +5,80 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2015-12-22T15:38:00Z</updated>
+  <updated>2015-12-29T22:11:43Z</updated>
+  <entry>
+    <title>Spring Cloud Stream 1.0 M3 and Data Flow 1.0 M2 released</title>
+    <link rel="alternate" href="https://spring.io/blog/2015/12/29/spring-cloud-stream-1-0-m3-and-data-flow-1-0-m2-released" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Mark Pollack</name>
+    </author>
+    <id>tag:spring.io,2015-12-29:2333</id>
+    <updated>2015-12-29T22:11:43Z</updated>
+    <content type="html">&lt;p&gt;On behalf of the team, I am pleased to announce several releases in the Spring Cloud Stream and Spring Cloud Data Flow family of projects.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://docs.spring.io/spring-cloud-stream/docs/1.0.0.M3/reference/html/"&gt;Spring Cloud Stream 1.0 M3&lt;/a&gt; introduces the following features&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Many improvements in middleware binding. In particular for supporting &lt;a href="http://docs.spring.io/spring-cloud-stream/docs/1.0.0.M3/reference/html/spring-cloud-stream-overview.html#_multiple_binders_on_the_classpath"&gt;multiple binders&lt;/a&gt;, so you can now have RabbitMQ as an input and Kafka be the output, for example.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://docs.spring.io/spring-cloud-stream/docs/1.0.0.M3/reference/htmlsingle/#_partitioning"&gt;Partitioning improvements&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="http://docs.spring.io/spring-cloud-stream-modules/docs/1.0.0.M2/reference/html/"&gt;Spring Cloud Stream Modules 1.0 M2&lt;/a&gt; adds many new modules with updated documentation.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Sources: File, Load Generator, sftp, and tcp&lt;/li&gt;
+  &lt;li&gt;Processors: httpclient, PMML, and Splitter&lt;/li&gt;
+  &lt;li&gt;Sinks: Cassandra, Field Value Counter, file, ftp, gemfire, HDFS Dataset, JDBC, tcp, throughput, and websocket&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="http://docs.spring.io/spring-cloud-dataflow/docs/1.0.0.M2/reference/htmlsingle/#_deploying_local"&gt;Spring Cloud Data Flow 1.0 M2&lt;/a&gt; has split out the multiple Admin Server implementations into separate github repositories. The Spring Cloud Data Flow core project supports deploying modules on a local host in separate JVMs&lt;/p&gt;
+&lt;p&gt;The following Data Flow implementations were also released&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="http://docs.spring.io/spring-cloud-dataflow-admin-yarn/docs/1.0.0.M1/reference/html/_deploying_on_yarn.html"&gt;Data Flow Apache YARN 1.0 M1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://docs.spring.io/spring-cloud-dataflow-admin-cloudfoundry/docs/1.0.0.M1/reference/htmlsingle/#getting-started"&gt;Data Flow Cloud Foundry 1.0 M1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://docs.spring.io/spring-cloud-dataflow-admin-mesos/docs/1.0.0.M1/reference/htmlsingle/#_deploying_streams_on_mesos_and_marathon"&gt;Data Flow Apache Mesos 1.0 M1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://docs.spring.io/spring-cloud-dataflow-admin-kubernetes/docs/1.0.0.M1/reference/htmlsingle/#_deploying_streams_on_kubernetes"&gt;Data Flow Kubernetes 1.0 M1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;UI Improvements&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;The Admin UI is available across all Admin implementations.&lt;/li&gt;
+  &lt;li&gt;The Admin UI adds a new Runtime Modules tab that allows you to remotely monitor and manage deployed modules.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://network.pivotal.io/products/p-flo-for-spring-cloud-data-flow"&gt;Flo for Spring Cloud Data Flow 1.0 M1&lt;/a&gt; is now available with drag-and-drop support for creating Streams.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There is also a new &lt;a href="https://github.com/spring-cloud/spring-cloud-dataflow-samples"&gt;Data Flow Samples repository&lt;/a&gt; to collect some common use-cases, and look forward to a blog post on how to get started on creating your own custom modules and deploying them in Spring Cloud Data Flow.&lt;/p&gt;
+&lt;p&gt;Of note, we are using github issues with waffle.io for issue management. Links to the waffle boards are on each project’s github page. You can find the links to each github project page under the main &lt;a href="http://cloud.spring.io/spring-cloud-dataflow/"&gt;Spring Cloud Data Flow&lt;/a&gt; project page.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>This Year in Spring - December 29, 2015</title>
+    <link rel="alternate" href="https://spring.io/blog/2015/12/29/this-year-in-spring-december-29-2015" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2015-12-29:2332</id>
+    <updated>2015-12-29T08:00:00Z</updated>
+    <content type="html">&lt;p&gt;Welcome to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt; where, with 2016&lt;br/&gt;just around the corner, we&amp;rsquo;ll look at some interesting news from the last week&lt;br/&gt;&lt;em&gt;and&lt;/em&gt; we&amp;rsquo;ll take a moment to review another amazing year in the Spring and Pivotal ecosystem.&lt;/p&gt;
+&lt;p&gt;Now let&amp;rsquo;s look at an short-and-sweet list of the latest-and-greatest from the last week:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Got a Amazon.com gift card burning a hole in your pocket from the holidays?&lt;br/&gt; Well, fret not, I&amp;rsquo;ve got just the thing for you! At long last, &lt;a href="http://twitter.com/habuma"&gt;Spring legend Craig Walls&lt;/a&gt;&amp;rsquo; epic&lt;br/&gt; &lt;a href="http://www.amazon.com/Spring-Boot-Action-Craig-Walls/dp/1617292540"&gt;&lt;em&gt;Spring Boot in Action&lt;/em&gt;&lt;/a&gt; is available! Get it while it&amp;rsquo;s hot! GO GO GO!&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/Netflix/genie"&gt;Netflix&amp;rsquo;s Genie&lt;/a&gt;, which is &lt;a href="http://techblog.netflix.com/2014/11/genie-20-second-wish-granted.html"&gt;a job scheduling and resource management layer&lt;/a&gt;&lt;br/&gt; for big-data jobs based on Spring Boot has just recently &lt;a href="https://github.com/Netflix/genie/commit/972bac63f2bcb595c3e1d36833e9b7fe31ace5da"&gt;cut over from Swagger to Spring REST Docs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Christoph Burmeister put together an introduction to building &lt;a href="http://christoph-burmeister.eu/?p=2849"&gt;a fullstack web application with Spring Boot&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;This Portuguse-language post looks at starting a new project &lt;a href="http://www.k19.com.br/artigos/primeira-aplicacao-com-spring-mvc-e-spring-boot/"&gt;using the Spring Tool Suite and Spring Boot&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;This Spanish-language post looks at &lt;a href="http://www.albertcoronado.com/2015/12/24/aplicaciones-web-con-spring-boot-spring-security-y-gradle/"&gt;how to stand up a Spring Boot web application with Thymeleaf views, secured with Spring Security&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;This Chinese language post &lt;em&gt;also&lt;/em&gt; looks at how to &lt;a href="http://blog.csdn.net/isea533/article/details/50278205"&gt;get started with Spring Boot&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;our pal Petri Kainulainen is back at it again, this time with a &lt;a href="http://www.petrikainulainen.net/programming/spring-framework/spring-from-the-trenches-creating-pdf-documents-with-wkhtmltopdf/"&gt;post on using Spring Boot to &lt;em&gt;generate&lt;/em&gt; &lt;code&gt;.pdf&lt;/code&gt; documents by shelling out to &lt;code&gt;wkhtmltopdf&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Jakub Narloch has a nice post on &lt;a href="https://jmnarloch.wordpress.com/2015/12/23/spring-cloud-zuul-trie-matcher/"&gt;using Spring Cloud Zuul to create a Trie matcher&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Simon Baslé&amp;rsquo;s just announced the first release candidate of &lt;a href="http://blog.couchbase.com/2015/december/spring-data-couchbase-2.0-release-candidate-quickannounce"&gt;Spring Data Couchbase 2.0&lt;/a&gt;!&lt;br/&gt; Get the bits and kick the tires while you can! The corresponding PR for support &lt;a href="https://github.com/spring-projects/spring-boot/pull/3499"&gt;for Spring Data Couchbase in Spring Boot has also been updated&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Check out this post to &lt;a href="http://www.blogjava.net/17learning/archive/2015/12/28/428853.html"&gt;learn how to use the community project, Spring Data JDBC&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It&amp;rsquo;s helpful to keep things in perspective; while every week has brought us &lt;em&gt;something&lt;/em&gt; interesting, some things stand above the rest and are worth revision here, in &lt;em&gt;This Year in Spring&lt;/em&gt;.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;in April of this year, &lt;a href="https://spring.io/blog/2015/03/04/spring-cloud-1-0-0-available-now"&gt;we announced &lt;strong&gt;Spring Cloud 1.0&lt;/strong&gt;&lt;/a&gt; complete with support for service registration and discovery, client-side load-balancing, circuit breakers, microproxies, and &lt;em&gt;so much more&lt;/em&gt;. Spring Cloud builds on Spring Boot and has been embraced wholeheartedly (and publicly) by the likes of Netflix, TicketMaster, Alibaba, and many more.&lt;/li&gt;
+  &lt;li&gt;just before SpringOne2GX 2015, we announced &lt;a href="http://cloud.spring.io/spring-cloud-dataflow/"&gt;&lt;strong&gt;Spring Cloud Data Flow&lt;/strong&gt;&lt;/a&gt;, the decomposition of the technology in Spring XD into small, Spring Boot-based microservices and auto-configuration. Spring Cloud Data Flow builds on top of Spring Cloud Stream, Spring Data and Spring Batch to easily compose and control big data jobs and streams.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2015/11/16/spring-boot-1-3-0-released"&gt;&lt;strong&gt;Spring Boot 1.3&lt;/strong&gt; was released&lt;/a&gt; almost a year after the release of Spring Boot 1.2, in November 2014. The release is &lt;em&gt;packed&lt;/em&gt; with all sorts of new features including numerous new auto-configurations, strong support development-time conveniences like live reloading and, of course, &lt;a href="http://stackoverflow.com/questions/33797009/how-to-change-spring-boot-logo-to-nyan-cat"&gt;the amazing color banner ASCII artwork&lt;/a&gt;!&lt;/li&gt;
+  &lt;li&gt;In November we released &lt;a href="https://blog.pivotal.io/pivotal-cloud-foundry/products/pivotal-cloud-foundry-1-6-now-available"&gt;the long-awaited &lt;strong&gt;Pivotal Cloud Foundry 1.6&lt;/strong&gt;&lt;/a&gt; which builds on the latest and greatest improvements to the Cloud Foundry OSS code, including the Diego scheduler which supports running Windows- and Docker-based workloads, and adds in the powerful Spring Cloud Services which make it dead simple to standup infrastructure like service registries and configuration services, among other things.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/pivotal-cf/micropcf"&gt;We announced &lt;strong&gt;MicroPCF&lt;/strong&gt;&lt;/a&gt;, which is the simplest way to get a local-node Pivotal Cloud Foundry-like experience that&amp;rsquo;s familiar for developers and administrators alike&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thanks for tuning in and don&amp;rsquo;t forget to join us again next week where we&amp;rsquo;ll kick off the new year and mark five years of &lt;em&gt;This Week in Spring&lt;/em&gt;! &lt;/p&gt;
+&lt;p&gt;On behalf of the Spring and Pivotal teams, HAPPY NEW YEAR!&lt;/p&gt;
+&lt;p&gt;** &lt;span style="font-size: smaller"&gt;No ninjas were harmed in the making of &lt;em&gt;This Week in Spring&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>This Week in Spring - December 22, 2015</title>
     <link rel="alternate" href="https://spring.io/blog/2015/12/22/this-week-in-spring-december-22-2015" />
@@ -641,229 +714,5 @@ non-heap = threads x stack + classes x 7/1000
   &lt;li&gt;&lt;code&gt;DataSourceConfig&lt;/code&gt; will now accept a map of key/value pairs to allow setting arbitrary properties of the created &lt;code&gt;DataSource&lt;/code&gt;. This allows overriding of the default JDBC driver class name and validation query set up by Connectors, in addition to other properties of the &lt;code&gt;DataSource&lt;/code&gt;. This can be used by Java configuration or XML configuration.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;See the full list of &lt;a href="https://github.com/spring-cloud/spring-cloud-connectors/issues?q=milestone%3A1.2.1"&gt;resolved issues in GitHub&lt;/a&gt;. &lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>This Week in Spring - December 1, 2015</title>
-    <link rel="alternate" href="https://spring.io/blog/2015/12/01/this-week-in-spring-december-1-2015" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2015-12-01:2313</id>
-    <updated>2015-12-01T12:52:39Z</updated>
-    <content type="html">&lt;p&gt;Wow! Can you believe we&amp;rsquo;re already staring down 2016? Time sure flies! Remember, &lt;em&gt;This Week in Spring&lt;/em&gt; was &lt;em&gt;started&lt;/em&gt; the first week of 2011, so we&amp;rsquo;ll soon mark the fifth anniversairry of TWiS!&lt;/p&gt;
-&lt;p&gt;This week I&amp;rsquo;m in Shanghai, China, for &lt;em&gt;the Cloud Foundry Summit Asia&lt;/em&gt; and then off to Ft. Lauderdale, Florida, USA, for the &lt;em&gt;Rich Web Experience&lt;/em&gt;! If you&amp;rsquo;re in either place, &lt;a href="mailto:josh@joshlong.com"&gt;don&amp;rsquo;t hesitate to reach me&lt;/a&gt;! &lt;/p&gt;
-&lt;p&gt;As usual, we&amp;rsquo;ve got a lot to cover so let&amp;rsquo;s get to it!&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Spring Boot co-founder and Spring framework contributor Phil Webb put up a really thoughtful post helping people looking at Spring (which has been around for 10+ years) to &lt;a href="http://spring.io/blog/2015/11/29/how-not-to-hate-spring-in-2016"&gt;avoid some of the common pitfalls facing new developers in 2016&lt;/a&gt;. A &lt;em&gt;very&lt;/em&gt; recommended read!&lt;/li&gt;
-  &lt;li&gt;Florian Benz did a great job discussing the motivations and use of comprehensive REST &lt;a href="https://medium.com/@flbenz/beautiful-api-documentation-with-negligible-overhead-2ba523205f61#.fo0hrc2lv"&gt;documentation as generated with Spring Rest Docs&lt;/a&gt;. This is a really cool, &lt;em&gt;quick&lt;/em&gt; read!&lt;/li&gt;
-  &lt;li&gt;Speaking of Spring Rest Docs, there&amp;rsquo;s a great interview with the project lead, the amazing Andy Wilkinson who - in his ample free time - also manages the Spring IO Platform as well as contributes to Spring Boot. &lt;a href="https://dzone.com/articles/a-qa-with-andy-wilkinson-on-spring-rest-docs"&gt;Read on to learn more about one of my heroes&lt;/a&gt;!&lt;/li&gt;
-  &lt;li&gt;Spring Boot and Spring Cloud co-founder Dr. Dave Syer has put [up a nice post on &lt;a href="http://spring.io/blog/2015/11/25/migrating-spring-cloud-apps-from-spring-boot-1-2-to-1-3"&gt;migrating Spring Cloud applications from Spring Boot 1.2 to the just released 1.3&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Spring Social lead Craig Walls just &lt;a href="http://spring.io/blog/2015/11/25/spring-social-1-1-4-released"&gt;announced Spring Social 1.1.4 which includes a few recommended bugfixes&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Spring Data ninja Thomas Risberg &lt;a href="http://spring.io/blog/2015/11/25/news-for-spring-data-jdbc-extensions-project"&gt;just announced Spring Data JDBC Extensions 1.2 and a slew of other great updates&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Spring Tool Suite lead Martin Lippert &lt;a href="http://spring.io/blog/2015/11/27/spring-tool-suite-3-7-2-released"&gt;just announced the STS 3.7.2 release of STS&lt;/a&gt; which includes an updated Spring Boot Dashboard, Spring Boot 1.3.0 compatibility, quick text search and more.&lt;/li&gt;
-  &lt;li&gt;Spring Boot, Spring Cloud and Spring Security OAuth contributor, co-founder and ninja Dr. Dave Syer&amp;rsquo;s &lt;a href="http://spring.io/blog/2015/11/30/migrating-oauth2-apps-from-spring-boot-1-2-to-1-3"&gt;post on migrating OAuth-based code from Spring Cloud Angel to Brixton&lt;/a&gt;, given the introduction of some of those features in Spring Boot 1.3, is a very cool read!&lt;/li&gt;
-  &lt;li&gt;Speaking of Spring Cloud Security, check &lt;a href="https://dzone.com/articles/securing-microservices-with-spring-cloud-security"&gt;out my pal Will Tran&amp;rsquo;s epic talk from SpringOne2GX 2015&lt;/a&gt;!&lt;/li&gt;
-  &lt;li&gt;Check out Spring Cloud co-founder Spencer Gibb&amp;rsquo;s epic talk from &lt;a href="http://www.infoq.com/presentations/spring-cloud-alternatives?utm_source=infoq&amp;utm_medium=videos_homepage&amp;utm_campaign=videos_row2"&gt;SpringOne2GX on alternative implementations of common extension hooks for Spring Cloud&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content>
-  </entry>
-  <entry>
-    <title>Migrating OAuth2 Apps from Spring Boot 1.2 to 1.3</title>
-    <link rel="alternate" href="https://spring.io/blog/2015/11/30/migrating-oauth2-apps-from-spring-boot-1-2-to-1-3" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Dave Syer</name>
-    </author>
-    <id>tag:spring.io,2015-11-24:2306</id>
-    <updated>2015-11-30T15:29:29Z</updated>
-    <content type="html">&lt;p&gt;There are some new features in &lt;a href="http://projects.spring.io/spring-boot/"&gt;Spring Boot&lt;/a&gt; 1.3 to do with &lt;a href="https://tools.ietf.org/html/rfc6749"&gt;OAuth2&lt;/a&gt; clients and servers and &lt;a href="http://projects.spring.io/spring-security-oauth/"&gt;Spring Security OAuth2&lt;/a&gt;. Some of those features were ported from &lt;a href="http://cloud.spring.io/spring-cloud-Security/,"&gt;Spring Cloud Security&lt;/a&gt; and hence were in the Angel release train of &lt;a href="http://projects.spring.io/spring-cloud/"&gt;Spring Cloud&lt;/a&gt;, but are not in the Brixton release train. This article helps you navigate the changes and update any existing apps to use the new features.&lt;/p&gt;&lt;h2&gt;&lt;a href="#dependency-management" class="anchor" name="dependency-management"&gt;&lt;/a&gt;Dependency Management&lt;/h2&gt;
-&lt;p&gt;If you are not using Spring Cloud you should be able to just change the version number of your Spring Boot dependency. Since some of the OAuth2 features migrated from Spring Cloud Security to Spring Boot in 1.3, it is likely that things are slightly more complicated than that. A &lt;a href="https://spring.io/blog/2015/11/25/migrating-spring-cloud-apps-from-spring-boot-1-2-to-1-3"&gt;separate article&lt;/a&gt; deals with upgrading Spring Cloud apps from Spring Boot 1.2 to 1.3. If you are using the Spring Cloud Angel release train then you should consult that article for details of how to manage the dependencies (independent of any specific features).&lt;/p&gt;&lt;h2&gt;&lt;a href="#authorization-server" class="anchor" name="authorization-server"&gt;&lt;/a&gt;Authorization Server&lt;/h2&gt;
-&lt;p&gt;An OAuth2 Authorization Server is responsible first and foremost for issuing access tokens. To do this it must be able to authenticate client apps and (optionally) users.&lt;/p&gt;
-&lt;p&gt;A very simple OAuth2 Authorization Server with a single client can be implemented by convention and some configuration properties in Spring Boot 1.3. So a really basic example like the vanilla auth server from the &lt;a href="https://spring.io/guides/tutorials/spring-security-and-angular-js/#_sso_with_oauth2_angular_js_and_spring_security_part_v"&gt;Angular JS Spring Securrity Tutorial&lt;/a&gt; from spring.io can be simplified quite a bit. In Spring Boot 1.2 we have:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint java"&gt;@SpringBootApplication&#xD;
-@RestController&#xD;
-@EnableResourceServer&#xD;
-public class AuthserverApplication {&#xD;
-       &#xD;
-  @Configuration&#xD;
-  @EnableAuthorizationServer&#xD;
-  protected static class OAuth2Config extends AuthorizationServerConfigurerAdapter {&#xD;
-&#xD;
-    @Autowired&#xD;
-    private AuthenticationManager authenticationManager;&#xD;
-         &#xD;
-    @Override&#xD;
-    public void configure(AuthorizationServerEndpointsConfigurer endpoints) throws Excep&#xD;
-      endpoints.authenticationManager(authenticationManager);&#xD;
-    }&#xD;
-&#xD;
-    @Override&#xD;
-    public void configure(ClientDetailsServiceConfigurer clients) throws Exception {&#xD;
-      clients.inMemory()&#xD;
-        .withClient(&amp;quot;acme&amp;quot;)&#xD;
-          .secret(&amp;quot;acmesecret&amp;quot;)&#xD;
-          .authorizedGrantTypes(&amp;quot;authorization_code&amp;quot;, &amp;quot;refresh_token&amp;quot;,&#xD;
-              &amp;quot;password&amp;quot;)&#xD;
-          .scopes(&amp;quot;openid&amp;quot;).autoApprove(true);&#xD;
-    }&#xD;
-&#xD;
-  }&#xD;
-&#xD;
-  ...&#xD;
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;In Spring Boot 1.3 we have just:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint java"&gt;@SpringBootApplication&#xD;
-@RestController&#xD;
-@EnableResourceServer&#xD;
-@EnableAuthorizationServer&#xD;
-public class AuthserverApplication {&#xD;
-  ...&#xD;
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;and in &lt;code&gt;application.properties&lt;/code&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint"&gt;security.oauth2.client.clientId: acme&#xD;
-security.oauth2.client.clientSecret: acmesecret&#xD;
-security.oauth2.client.authorized-grant-types: authorization_code,refresh_token,password&#xD;
-security.oauth2.client.scope: openid
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;This is a general purpose Authorization Server, great for demos, but not very realistic in practice because it only has one client (&amp;ldquo;acme&amp;rdquo;). Nevertheless, as a way to get started quickly with OAuth2 it&amp;rsquo;s nice to be able to do so much with so little.&lt;/p&gt;
-&lt;p&gt;To extend the basic sample and take control of the Authorization Server features you only have to go back to the old Spring Boot 1.2 version (any app with its own &lt;code&gt;AuthorizationServerConfigurer&lt;/code&gt; switches off the autoconfigured features).&lt;/p&gt;&lt;h2&gt;&lt;a href="#resource-server" class="anchor" name="resource-server"&gt;&lt;/a&gt;Resource Server&lt;/h2&gt;
-&lt;p&gt;A Resource Server protects its endpoints by requiring a valid access token (as created by the Authorization Server).&lt;/p&gt;
-&lt;p&gt;Similarly to the Authorization Server, a Resource Server can be implemented by convention and some configuration properties in Spring Boot 1.3, and also with Spring Boot 1.2 in conjunction with Spring Cloud Security. As an example consider the vanilla resource server &lt;a href="https://spring.io/guides/tutorials/spring-security-and-angular-js/#_sso_with_oauth2_angular_js_and_spring_security_part_v"&gt;Angular JS Spring Security Tutorial&lt;/a&gt; from spring.io.&lt;/p&gt;
-&lt;p&gt;With Spring Boot 1.2 we had to use Spring Cloud Security for the &lt;code&gt;@EnableOAuth2Resource&lt;/code&gt; annotation:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint groovy"&gt;@SpringBootApplication&#xD;
-@RestController&#xD;
-@EnableOAuth2Resource&#xD;
-class ResourceApplication {&#xD;
-  ...&#xD;
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;and some configuration to help decode the access tokens in &lt;code&gt;application.properties&lt;/code&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint"&gt;spring.oauth2.resource.userInfoUri: http://localhost:9999/uaa/user
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;With Spring Boot 1.3 the Spring Cloud dependency can be removed and the annotation replaced with a vanilla &lt;code&gt;@EnableResourceServer&lt;/code&gt; annotation from Spring Security OAuth2:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint groovy"&gt;@SpringBootApplication&#xD;
-@RestController&#xD;
-@EnableResourceServer&#xD;
-class ResourceApplication {&#xD;
-  ...&#xD;
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;To finish the app there is a slightly different configuration (note the key prefix change from &lt;code&gt;spring.oauth2&lt;/code&gt; to &lt;code&gt;security.oauth2&lt;/code&gt;):&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint"&gt;security.oauth2.resource.userInfoUri: http://localhost:9999/uaa/user
-&lt;/code&gt;&lt;/pre&gt;&lt;h2&gt;&lt;a href="#client-application" class="anchor" name="client-application"&gt;&lt;/a&gt;Client Application&lt;/h2&gt;
-&lt;p&gt;In OAuth2 a client is an agent (usually an application) that acquires a token, often on behalf of a user. Single Sign On can be implemented by having a single Authorization Server and dependent authenticating apps that are OAuth2 clients.&lt;/p&gt;&lt;h3&gt;&lt;a href="#vanilla-single-sign-on" class="anchor" name="vanilla-single-sign-on"&gt;&lt;/a&gt;Vanilla Single Sign On&lt;/h3&gt;
-&lt;p&gt;On the client side in Spring Boot 1.3 you can implement the Single Sign On pattern with an annotation and some configuration properties. You can do the same with Spring Boot 1.2 is you use Spring Cloud Security as well.&lt;/p&gt;
-&lt;p&gt;A really generic example with Spring Boot 1.2 and Spring Cloud Angel would use a single &lt;code&gt;@EnableOAuth2Sso&lt;/code&gt; annotation:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint java"&gt;@SpringBootApplication&#xD;
-@EnableOAuth2Sso&#xD;
-public class SsoApplication {&#xD;
-  ...&#xD;
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;and some configuration for the client in &lt;code&gt;application.yml&lt;/code&gt; (or equivalently &lt;code&gt;application.properties&lt;/code&gt;). Here&amp;rsquo;s an example for authentication with Facebook for an app running on localhost:8080:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint yaml"&gt;spring:&#xD;
-  oauth2:&#xD;
-    client:&#xD;
-      clientId: 233668646673605&#xD;
-      clientSecret: 33b17e044ee6a4fa383f46ec6e28ea1d&#xD;
-      accessTokenUri: https://graph.facebook.com/oauth/access_token&#xD;
-      userAuthorizationUri: https://www.facebook.com/dialog/oauth&#xD;
-      tokenName: oauth_token&#xD;
-      authenticationScheme: query&#xD;
-      clientAuthenticationScheme: form&#xD;
-    resource:&#xD;
-      userInfoUri: https://graph.facebook.com/me
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The same app looks almost identical in Spring Boot 1.3 but there is no need for Spring Cloud Security. Also the annotation moved to a different package, and the configuration prefix changed. So removing the Cloud dependency, changing the import for the annotation and switching the prefix in &lt;code&gt;application.yml&lt;/code&gt; from &lt;code&gt;spring&lt;/code&gt; to &lt;code&gt;security&lt;/code&gt; is all that is needed to migrate this app.&lt;/p&gt;&lt;h3&gt;&lt;a href="#single-sign-on-and-custom-access-rules" class="anchor" name="single-sign-on-and-custom-access-rules"&gt;&lt;/a&gt;Single Sign On and Custom Access Rules&lt;/h3&gt;
-&lt;p&gt;In Spring Cloud Security 1.0 (from the Angel release train) users can customize the request matching and access rules using a combination of a special callback &lt;code&gt;OAuth2ClientConfigurer&lt;/code&gt; and some configuration properties in &lt;code&gt;spring.oauth2.sso.*&lt;/code&gt;. So for example, the vanilla client app in the &lt;a href="https://spring.io/guides/tutorials/spring-security-and-angular-js/#_sso_with_oauth2_angular_js_and_spring_security_part_v"&gt;Angular JS Spring Security Tutorial&lt;/a&gt; from spring.io has this general pattern of implementation in Spring Boot 1.2:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint java"&gt;@SpringBootApplication&#xD;
-@EnableOAuth2Sso&#xD;
-public class UiApplication {&#xD;
-&#xD;
-  @Configuration&#xD;
-  protected static class SecurityConfiguration extends OAuth2SsoConfigurerAdapter {&#xD;
-&#xD;
-    @Override&#xD;
-    public void match(RequestMatchers matchers) {&#xD;
-      matchers.anyRequest();&#xD;
-    }&#xD;
-&#xD;
-    @Override&#xD;
-    public void configure(HttpSecurity http) throws Exception {&#xD;
-      http&#xD;
-        .authorizeRequests()&#xD;
-          .antMatchers(&amp;quot;/index.html&amp;quot;, &amp;quot;/home.html&amp;quot;, &amp;quot;/&amp;quot;).permitAll()&#xD;
-          .anyRequest().authenticated()&#xD;
-        .and().csrf()&#xD;
-          .csrfTokenRepository(csrfTokenRepository())&#xD;
-        .and()&#xD;
-          .addFilterAfter(csrfHeaderFilter(), CsrfFilter.class);&#xD;
-    }&#xD;
-&#xD;
-  }&#xD;
-&#xD;
-  ...&#xD;
-  &#xD;
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;and a similar &lt;code&gt;application.yml&lt;/code&gt; to the vanilla sample:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint yaml"&gt;spring:&#xD;
-   oauth2:&#xD;
-    sso:&#xD;
-      home:&#xD;
-        secure: false&#xD;
-        path: /,/**/*.html&#xD;
-     client:&#xD;
-       accessTokenUri: http://localhost:9999/uaa/oauth/token&#xD;
-       userAuthorizationUri: http://localhost:9999/uaa/oauth/authorize&#xD;
-     resource:&#xD;
-       userInfoUri: http://localhost:9999/uaa/user
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;With Spring Boot 1.3 there is no need for Spring Cloud Security, and the customizations don&amp;rsquo;t need the obsolete &lt;code&gt;OAuth2SsoConfigurerAdapter&lt;/code&gt;. Instead they just need all of the same code, plus a request matcher, in a regular &lt;code&gt;WebSecurityConfigurerAdapter&lt;/code&gt; carrying the &lt;code&gt;@EnableOAuth2Sso&lt;/code&gt; annotation:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint java"&gt;@SpringBootApplication&#xD;
-@EnableZuulProxy&#xD;
-@EnableOAuth2Sso&#xD;
-public class UiApplication extends WebSecurityConfigurerAdapter {&#xD;
-&#xD;
-  @Override&#xD;
-  public void configure(HttpSecurity http) throws Exception {&#xD;
-    http.antMatcher(&amp;quot;/**&amp;quot;)&#xD;
-      .authorizeRequests()&#xD;
-        .antMatchers(&amp;quot;/index.html&amp;quot;, &amp;quot;/home.html&amp;quot;, &amp;quot;/&amp;quot;).permitAll()&#xD;
-        .anyRequest().authenticated()&#xD;
-      .and().csrf()&#xD;
-        .csrfTokenRepository(csrfTokenRepository())&#xD;
-      .and()&#xD;
-        .addFilterAfter(csrfHeaderFilter(), CsrfFilter.class);&#xD;
-  }&#xD;
-  &#xD;
-  ...&#xD;
-&#xD;
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The configuration properties in the updated version are mostly the same: there is a prefix change from &lt;code&gt;spring.oauth2&lt;/code&gt; to &lt;code&gt;security.oauth2&lt;/code&gt; and there is no need for the &lt;code&gt;*.oauth2.sso.*&lt;/code&gt; properties because they are explicitly configured by the user in the &lt;code&gt;WebSecurityConfigurerAdapter&lt;/code&gt;.&lt;/p&gt;&lt;h3&gt;&lt;a href="#single-sign-on-and-zuul-proxy" class="anchor" name="single-sign-on-and-zuul-proxy"&gt;&lt;/a&gt;Single Sign On and Zuul Proxy&lt;/h3&gt;
-&lt;p&gt;The actual client app in the &lt;a href="https://spring.io/guides/tutorials/spring-security-and-angular-js/#_sso_with_oauth2_angular_js_and_spring_security_part_v"&gt;Angular JS Spring Security Tutorial&lt;/a&gt; from spring.io is similar to the customized one above, but it is also a Zuul proxy, responsible for forwarding requests from the browser client to back-end services. In Spring Boot 1.3, this app still needs Spring Cloud Security for the token relay (it wants to send the access tokens used for authentication to the back end resources), but it doesn&amp;rsquo;t need it for the basic SSO features, so the implementation is identical to the previous sample with the addition of an &lt;code&gt;@EnableZuulProxy&lt;/code&gt; annotation.&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;NOTE: a bug in Spring Boot 1.3.0 leads to a workaround in the current implementation (at time of writing) of the client app in the &lt;a href="https://spring.io/guides/tutorials/spring-security-and-angular-js/#_sso_with_oauth2_angular_js_and_spring_security_part_v"&gt;Angular JS Spring Security Tutorial&lt;/a&gt;. The workaround is only needed because it is using Spring Cloud Security, and will also be redundant in Spring Boot 1.3.1:&lt;/p&gt;
-  &lt;pre&gt;&lt;code class="prettyprint"&gt;@Component
-@Order(Ordered.HIGHEST_PRECEDENCE)
-class WorkaroundRestTemplateCustomizer implements UserInfoRestTemplateCustomizer {
-
-  public void customize(OAuth2RestTemplate template) {
-    template.setInterceptors(new ArrayList&amp;lt;&amp;gt;(template.getInterceptors()));
-  }
-
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/blockquote&gt;&lt;h2&gt;&lt;a href="#single-sign-one-in-cloud-foundry" class="anchor" name="single-sign-one-in-cloud-foundry"&gt;&lt;/a&gt;Single Sign One in Cloud Foundry&lt;/h2&gt;
-&lt;p&gt;With Spring Boot 1.2 and Spring Cloud Security in the Angel release train, an app is able to configire itself for OAuth2 SSO if you bind to a service with the right credentials. E.g. you can create a User Provided Service like this:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint"&gt;cf create-user-provided-service sso -p &amp;#39;{&amp;quot;userInfoUri&amp;quot;:&amp;quot;https://uaa.run.pivotal.io/userinfo&amp;quot;, &amp;quot;tokenUri&amp;quot;:&amp;quot;login.run.pivotal.io/oauth/token&amp;quot;, &amp;quot;authorizationUri&amp;quot;:&amp;quot;login.run.pivotal.io/oauth/authorize&amp;quot;, &amp;quot;clientId&amp;quot;:&amp;quot;[client]&amp;quot;, &amp;quot;clientSecret&amp;quot;:&amp;quot;[secret]&amp;quot;}&amp;#39;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Then an app with &lt;code&gt;@EnableOAuth2Sso&lt;/code&gt; which is bound to the service will bind the configuration needed for the SSO without the user having to change any configuration.&lt;/p&gt;
-&lt;p&gt;The same feature is available in Spring Boot 1.3 and Spring Cloud Brixton, but instead of Spring Cloud Security you need to use the new &lt;code&gt;spring-cloud-cloudfoundry-web&lt;/code&gt; library to get the SSO configuration binding behaviour. You can also use the built-in SSO service in Cloud Foundry instead of a User Provided Service (available in Pivotal Web Services for selected accounts or in Pivotal Cloud Foundry).&lt;/p&gt;&lt;h2&gt;&lt;a href="#conclusion" class="anchor" name="conclusion"&gt;&lt;/a&gt;Conclusion&lt;/h2&gt;
-&lt;p&gt;If you are using Spring Boot and maybe Spring Cloud with OAuth2, hopefully you will now be able to upgrade smoothly from Spring Boot 1.2 to 1.3, or at worst you will have some tools to help you think about what is going on when you hit the bumps. Spring Boot 1.3 has nearly all the features of Spring Cloud Security 1.0, so the main thing you need to think about is the dependencies. In addition there are a few new features in Spring Boot, like autoconfiguration of an Authorization Server, for instance. As usual with Spring Boot, you can (and should) take the default bevaviour until you need to change it, at which point there should be no barriers to doing so.&lt;/p&gt;
-&lt;p&gt;The sample apps in the Spring Guides have all been updated to Spring Boot 1.3 now, even if that means they depend on a milestone of Spring Cloud (this only applies to the Zuul proxy sample). Many do not need Spring Cloud any more. If you need a GA version of Spring Cloud you need to stay with Spring Boot 1.2 right now. The samples for that combination can be lifted from git history.&lt;/p&gt;</content>
   </entry>
 </feed>

@@ -1,0 +1,5 @@
+127.0.0.1 - - [29/Dec/2015:19:35:51 +0100] "GET / HTTP/1.1" 404 961
+0:0:0:0:0:0:0:1 - - [29/Dec/2015:19:36:15 +0100] "GET /HelloSpringWithMongoDB HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [29/Dec/2015:19:36:16 +0100] "GET /HelloSpringWithMongoDB/ HTTP/1.1" 200 147
+0:0:0:0:0:0:0:1 - - [29/Dec/2015:19:36:19 +0100] "GET /HelloSpringWithMongoDB/person HTTP/1.1" 200 511
+0:0:0:0:0:0:0:1 - - [29/Dec/2015:19:36:22 +0100] "POST /HelloSpringWithMongoDB/person/save HTTP/1.1" 500 10151
